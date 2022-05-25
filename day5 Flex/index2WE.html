@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+    #navbar{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #navbar>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        justify-items:;
+    }
+    #navbar>div:first-child{
+        width: 15%;
+        height: 100%;
+        /* border: 1px solid teal; */
+    }
+    #navbar>div:last-child{
+        width: 70%;
+        height: 100%;
+        /* border: 1px solid teal; */
+        display: flex;
+        justify-content: space-around;
+    }
+    p + div{
+        display: flex;
+        background-color: #cee3f1;
+        justify-content: center;
+        align-items: center;
+        padding:0px 20px ;
+        border-radius: 10px;
+    }
+    p+div>img{
+     width: 20px;
+     height: 20px;
+     margin-left: 7px;
+    }
+    button{
+        width: 70px;
+        height: 50px;
+        background-color: rgb(255, 240, 240);
+        border: 2px solid rgb(250, 123, 123);
+        border-radius: 10px;
+    }
+    select{
+        border: 0px;
+        font-size: large;
+    }
+
+
+</style>
+
+</head>
+<body>
+    
+
+<div id="navbar">
+    <div><img src="https://www.masaischool.com/img/navbar/logo.svg" alt="oops"></div>
+    <div>
+        <select>
+            <option value="">Courses</option>
+        </select>
+        <p>fees & isa</p>
+        <p>about us</p>
+        <p>hirre from us</p>
+        <p>faq</p>
+        <p>events</p>
+        <div>
+            <p>REFER % EARN</p>
+            <img src="https://www.masaischool.com/img/referral/hand.png" alt="oops">
+        </div>
+        <button>Login</button>
+    </div>
+</div>
+
+</body>
+</html>
